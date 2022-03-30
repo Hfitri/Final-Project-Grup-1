@@ -1,15 +1,16 @@
 import Navbars from '../layouts/Navbars';
 import './App.css';
 import "@material-tailwind/react/tailwind.css";
+import Footers from '../component/Footers';
 
 function App() {
   return (
     <div className="App">
       <Navbars></Navbars>
-      ga tau sih 
-      jdi gmana?
-         </div>
+      <Footers />
+    </div>
   );
 }
+
 
 export default App;
