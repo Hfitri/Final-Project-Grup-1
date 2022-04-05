@@ -18,7 +18,7 @@ function Testimoni() {
                                 </p>
                                 <div class="mt-12 mb-6 flex justify-center">
                                     <img
-                                        src={require("../assets/testi1.jpg")}
+                                        src={require("../../assets/testi1.jpg")}
                                         class="rounded-full w-24 h-24 shadow-lg"
                                         alt="smaple image"
                                     />
@@ -32,7 +32,7 @@ function Testimoni() {
                                 </p>
                                 <div class="mt-12 mb-6 flex justify-center">
                                     <img
-                                        src={require("../assets/testi2.jpg")}
+                                        src={require("../../assets/testi2.jpg")}
                                         class="rounded-full w-24 h-24 shadow-lg"
                                         alt="smaple image"
                                     />
@@ -45,7 +45,7 @@ function Testimoni() {
                                 </p>
                                 <div class="mt-12 mb-6 flex justify-center">
                                     <img
-                                        src={require("../assets/testi3.jpg")}
+                                        src={require("../../assets/testi3.jpg")}
                                         class="rounded-full w-24 h-24 shadow-lg"
                                         alt="smaple image"
                                     />
