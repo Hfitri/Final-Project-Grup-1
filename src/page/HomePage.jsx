@@ -1,10 +1,10 @@
-import AboutUs from "../component/AboutUs";
-import Maps from "../component/Maps";
-import Masthead from "../component/Masthead";
-import OurTeam from "../component/OurTeam";
-import Services from "../component/Services";
-import Testimoni from "../component/Testimoni";
-import VisiMisi from "../component/VisiMisi";
+import AboutUs from "../component/homepage/AboutUs";
+import Maps from "../component/homepage/Maps";
+import Masthead from "../component/homepage/Masthead";
+import OurTeam from "../component/homepage/OurTeam";
+import Services from "../component/homepage/Services";
+import Testimoni from "../component/homepage/Testimoni";
+import VisiMisi from "../component/homepage/VisiMisi";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
