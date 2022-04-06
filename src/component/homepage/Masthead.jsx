@@ -5,7 +5,7 @@ function Masthead() {
     return (
         <>
             {/* pt-36 */}
-            <div class=" pt-60 pb-7 right-0 bottom-0 left-0 lg:w-full lg:h-full overflow-hidden bg-fixed bg-[url('https://images.wallpaperscraft.com/image/single/cat_heterochromia_black_cat_128354_1920x1080.jpg')]">
+            <div class="pt-80 pb-7 right-0 bottom-0 left-0 lg:w-full lg:h-full overflow-hidden bg-fixed bg-[url('https://images.wallpaperscraft.com/image/single/cat_heterochromia_black_cat_128354_1920x1080.jpg')]">
                 <div class="container mx-auto px-24">
                     <div class="flex justify-left items-center h-full">
                         <div class="text-left text-black mb-48 b-11 px-6 md:px-12">
