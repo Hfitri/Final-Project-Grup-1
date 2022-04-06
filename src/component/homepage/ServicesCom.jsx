@@ -24,7 +24,7 @@ function ServicesCom() {
                     <div class="flex justify-center mt-11">
                         <div data-aos="zoom-in-up"
                             data-aos-duration="1500">
-                            <Button title={"Konsultasi Sekarang"} url={"#about"} />
+                            <Button title={"Konsultasi Sekarang"} url={"konsultasi"} />
                         </div>
                     </div>
                 </div>

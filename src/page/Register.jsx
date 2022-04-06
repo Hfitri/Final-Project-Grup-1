@@ -20,11 +20,14 @@ function Register() {
                                 <InputLogin placeholder="Password" type="password" />
 
                                 <div class="flex justify-end items-center mb-6">
-
-                                    <a
-                                        href="#!"
-                                        class="text-blue-600 hover:text-blue-700 focus:text-blue-700 active:text-blue-800 transition ease-in-out"
-                                    >Forgot password?</a>
+                                    <p class="text-sm mr-2 font-semibold mt-2 pt-1 mb-0">
+                                        Already have an account?
+                                        <a
+                                            href="login"
+                                            class="text-blue-600 hover:text-blue-700 focus:text-blue-700 transition duration-200 ease-in-out"
+                                        > Login</a
+                                        >
+                                    </p>
                                 </div>
 
                                 {/* <!-- Submit button --> */}

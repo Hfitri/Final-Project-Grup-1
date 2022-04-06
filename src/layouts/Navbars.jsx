@@ -43,6 +43,7 @@ function Navbars() {
                             <NavLink href="news" ripple="light">News</NavLink>
                             <NavLink href="catshop" ripple="light">Cat Shop</NavLink>
                             <NavLink href="login" ripple="light">Login </NavLink>
+                            {/* <img style={{ width: 35 }} src={require("../assets/user.png")} alt="" /> */}
                         </Nav>
                     </NavbarCollapse>
                 </NavbarContainer>
