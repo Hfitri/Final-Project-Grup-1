@@ -16,7 +16,9 @@ function Navbars() {
                 <NavbarContainer>
                     <NavbarWrapper>
                         <div class="pl-32">
-                            <img style={{ width: 50 }} src={require("../assets/catbrand.png")} alt="" />
+                            <a href="/">
+                                <img style={{ width: 50 }} src={require("../assets/catbrand.png")} alt="" />
+                            </a>
                         </div>
 
 
@@ -31,17 +33,16 @@ function Navbars() {
                         <Nav>
 
                             <div class=" pr-96">
-                                <NavLink href="#konsultasi" ripple="light">Konsultasi</NavLink>
+                                <NavLink href="/konsultasi" ripple="light">Konsultasi</NavLink>
                             </div>
 
 
-                            <NavLink href="#aboutus" ripple="light">About Us</NavLink>
-                            <NavLink href="#services" ripple="light">Services</NavLink>
-                            <NavLink href="#ourteam" ripple="light">Our Team</NavLink>
-                            <NavLink href="#news" ripple="light">News</NavLink>
-                            <NavLink href="#shop" ripple="light">Cat Shop</NavLink>
-                            <NavLink href="#login" ripple="light">Login </NavLink>
-
+                            <NavLink href="/#aboutus" ripple="light">About Us</NavLink>
+                            <NavLink href="/#services" ripple="light">Services</NavLink>
+                            <NavLink href="/#ourteam" ripple="light">Our Team</NavLink>
+                            <NavLink href="news" ripple="light">News</NavLink>
+                            <NavLink href="catshop" ripple="light">Cat Shop</NavLink>
+                            <NavLink href="login" ripple="light">Login </NavLink>
                         </Nav>
                     </NavbarCollapse>
                 </NavbarContainer>

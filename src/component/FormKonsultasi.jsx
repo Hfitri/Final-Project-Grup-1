@@ -5,7 +5,7 @@ function FormKonsultasi() {
             <div class="flex justify-center">
             <div class="block rounded-lg shadow-lg bg-white max-w-md pl-36 pr-36 pt-6 pb-6">
             <form>
-                <div class="form-group mb-6">
+                <div class="form-group mb-6 pl-26 pr-26">
                 <input type="text" class="form-control block
                     w-full
                     px-3
