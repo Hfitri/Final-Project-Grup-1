@@ -4,7 +4,6 @@ import "@material-tailwind/react/tailwind.css";
 import Footers from '../layouts/Footers';
 import Homepage from '../page/HomePage';
 
-
 function App() {
 
   return (
