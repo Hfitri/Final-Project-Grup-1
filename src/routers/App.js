@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <Navbars>
-        
+
       </Navbars>
       <Routes>
         <Route path="*" element={<NotFound />} />
