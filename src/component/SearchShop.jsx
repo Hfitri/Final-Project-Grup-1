@@ -3,7 +3,7 @@ function SearchShop() {
     <>
       <div class="flex justify-center">
         <div class="mb-3 xl:w-96">
-          <label for="exampleSearch2" class="form-label inline-block mb-2 text-gray-700">
+          <label for="exampleSearch2" class="form-label pt-4 inline-block mb-2 text-gray-700">
             Search
           </label>
           <input
