@@ -1,3 +1,4 @@
+
 function TitleKonsultasi() {
     return (
         <>
@@ -10,7 +11,9 @@ function TitleKonsultasi() {
             mx-auto 
             px-24 
             text-center">
-                <h2> Tanya- tanya, atau curhat ke dokter kucing tapi gak pakai bayar alias gratis? yuk coba konsultasi. </h2>
+                <h2 class="font-serif text-blue-900 drop-shadow-2xl"> Tanya- tanya, atau curhat ke dokter kucing tapi gak pakai bayar alias gratis? yuk coba konsultasi </h2>
+            <hr/>
+            
             </div>
             
         </>
