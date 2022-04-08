@@ -9,7 +9,7 @@ import 'aos/dist/aos.css';
 import Button from "./homepage/Button";
 
 
-export default function Artikel() {
+export default function Artikel(props) {
   AOS.init();
   return (
     <div data-aos="zoom-out-up"
@@ -19,22 +19,21 @@ export default function Artikel() {
         <div class="shadow-2xl box-content h-200 w-60 p-4 border-4 rounded-3xl bg-blue-400 ...">
           <Card>
             <CardImage
-              src="https://d1bpj0tv6vfxyp.cloudfront.net/articles/758149_25-1-2021_13-8-13.jpeg"
+              src={props.url}
               alt="Card Image"
             />
 
             <CardBody>
-              <H6 color="gray">Kenali kebiasaan kucing anda</H6>
+              <H6 color="gray">{props.title}</H6>
             </CardBody>
 
             <CardFooter>
-              <div data-bs-toggle="modal" data-bs-target="#exampleModalLg">
+              <div key={props.key} data-bs-toggle="modal" data-bs-target="#exampleModalLg">
                 <Button title="Selengkapnya" />
               </div>
-
-
             </CardFooter>
           </Card>
+
         </div>
 
       </div>

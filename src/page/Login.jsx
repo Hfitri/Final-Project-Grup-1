@@ -2,6 +2,7 @@ import InputLogin from "../component/InputLogin";
 import { GoogleLogin, GoogleLogout } from 'react-google-login';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom'
+import Button from '../component/homepage/Button'
 
 function Login() {
     const clientId = "648341299149-1o6kq6frd26fd9pibhaivjrvsqpso70v.apps.googleusercontent.com";
@@ -51,11 +52,18 @@ function Login() {
 
                         <div class="flex justify-center">
                             {user ?
-                                <GoogleLogout
-                                    clientId={clientId}
-                                    buttonText="Logout"
-                                    onLogoutSuccess={signoutSuccess}
-                                /> :
+                                <>
+                                    <GoogleLogout
+                                        clientId={clientId}
+                                        buttonText="Logout"
+                                        onLogoutSuccess={signoutSuccess}
+                                    />
+                                    <div class="ml-10">
+                                        <Button title="Homepage" url="/" />
+                                    </div>
+
+                                </>
+                                :
                                 <>
                                     <div class="md:w-9/12 lg:w-1/12 lg:ml-10">
                                         <form>

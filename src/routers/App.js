@@ -16,9 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbars>
-
-      </Navbars>
+      <Navbars />
       <Routes>
         <Route path="*" element={<NotFound />} />
         <Route path="/" element={<Homepage />} />
