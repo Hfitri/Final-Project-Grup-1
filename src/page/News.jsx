@@ -1,6 +1,5 @@
 import Artikel from "../component/Artikel";
 import H3 from "@material-tailwind/react/Heading3";
-import NewsModal from "../component/NewsModal";
 import datas from '../data-news'
 
 function News() {
@@ -19,9 +18,9 @@ function News() {
                         <>
                             <div
                                 key={data.id}>
-                                <Artikel title={data.title} url={data.url} />
+                                <Artikel title={data.title} url={data.url} deskripsi={data.deskripsi} id={data.id} />
                             </div>
-                            <NewsModal key={data.id} title={data.title} deskripsi={data.deskripsi} />
+
                         </>
                     ))}
 

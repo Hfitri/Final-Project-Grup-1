@@ -10,7 +10,6 @@ import CatShop from '../page/CatShop'
 import Checkout from '../page/Checkout'
 import Login from '../page/Login'
 import News from '../page/News'
-import Register from '../page/Register';
 
 function App() {
 
@@ -25,7 +24,6 @@ function App() {
         <Route path="/konsultasi" element={<Konsultasi />} />
         <Route path="/login" element={<Login />} />
         <Route path="/news" element={<News />} />
-        <Route path="/register" element={<Register />} />
       </Routes>
       <Footers />
     </div>

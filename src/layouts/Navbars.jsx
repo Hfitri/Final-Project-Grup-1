@@ -6,7 +6,6 @@ import NavbarToggler from "@material-tailwind/react/NavbarToggler";
 import NavbarCollapse from "@material-tailwind/react/NavbarCollapse";
 import Nav from "@material-tailwind/react/Nav";
 import NavLink from "@material-tailwind/react/NavLink";
-import Login from "../page/Login";
 
 function Navbars() {
     const [openNavbar, setOpenNavbar] = useState(false);
@@ -44,13 +43,22 @@ function Navbars() {
                             <NavLink href="/#services" ripple="light">Services</NavLink>
                             <NavLink href="/#ourteam" ripple="light">Our Team</NavLink>
                             <NavLink href="news" ripple="light">News</NavLink>
-                            <NavLink href="catshop" ripple="light">Cat Shop</NavLink>
+                            {/* <NavLink href="catshop" ripple="light">Cat Shop</NavLink> */}
+                            {user ?
+                                <>
+                                    <NavLink href="/catshop" ripple="light">Cat Shop  </NavLink>
+                                    {/* <Login /> */}
+                                </>
+                                : <>
+                                    <NavLink href="/login">Cat Shop</NavLink>
+                                </>}
 
                             {user ?
                                 <a href="login"><div class="pl-3 pr-6"> <img style={{ width: 35 }} src={require("../assets/user.png")} alt="" /> </div></a>
                                 :
                                 <> <NavLink href="login" ripple="light">Login </NavLink> </>
                             }
+
 
                             {/* <NavLink href="login" ripple="light">Login </NavLink> */}
                             {/* <img style={{ width: 35 }} src={require("../assets/user.png")} alt="" /> */}
